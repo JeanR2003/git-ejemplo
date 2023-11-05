@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cell Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="js" href="script.js" >
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">CELL SHOP</a>
+            <input type="chceckbox" id="menu" />
+            <label for="menu">
+                <img src="Imagenes/boton-de-menu-de-tres-lineas-horizontales.png" class="menu-icono" alt="menu">
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Quienes Somos</a></li>
+                    <li><a href="#">Contactenos</a></li>
+                    <li><a href="#">Productos</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img id="img-carrito" src="Imagenes/shopping-cart_icon-icons.com_72552.png" alt="car">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3" >Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-text">
+                <span>Bienvenido a Cell Shop</span>
+                <h1>Ofertas Especiales de Noviembre y Diciembre</h1>
+                <p>
+                    !Aprovecha las ofertas que tenemos¡ En Cell Shop tenemos gran variedad de celualares de gama alta, media y baja para ofrecer a nuestros clientes, no te quedes sin tu equipo...
+                </p>
+                <div class="buttons">
+                    <a href="#" class="btn-1">Informacion</a>
+                    <a href="#" class="btn-1">Leer más</a>
+                </div>      
+            </div>
+            <div class="header-img">
+                <img src="Imagenes/seo-iphone-movistar-4.jpg" alt="">
+
+            </div>
+        </div>
+
+    </header>
+
+    <section class="oferts-container">
+        <div class="ofert-1 b1">
+            <div class="ofert-txt">
+                <h3>El Google Pixel 7a es uno de mis móviles habituales. Llevo casi desde que salió con él, está sufriendo como un campeón las pruebas de Android 14, me he hartado de recomendarlo a todo aquel que me preguntaba por un buen móvil; que a la vez fuese bonito y barato.</h3>
+                <a href="#">Leer más</a>
+            </div>
+            <div class="ofert-img">
+                <img src="Imagenes/google pixel 7a.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="ofert-1 b2">
+            <div class="ofert-txt">
+                <h3>El Honor 9x se trata de un móvil de gama media que integra triple cámara trasera con un sensor de 48 megapíxeles y una pantalla IPS de 6,59 pulgadas. La cámara frontal se esconde en un módulo que sale a voluntad y así se trata de una propuesta candidata para quien busca un móvil cercano al “todo pantalla” por un precio más asequible que otras propuestas en la misma gama.</h3>
+                <a href="#">Leer más</a>
+            </div>
+            <div class="ofert-img">
+                <img src="Imagenes/honor 9x.png" alt="">
+            </div>
+        </div>
+
+        <div class="ofert-1 b3">
+            <div class="ofert-txt">
+                <h3>El 'Pro', el Honor Magic5 ofrece un apartado estético muy similar con una pantalla curva de 6,73 pulgadas. Mantiene también los 120 Hz de tasa de refresco, aunque reduce ligeramente su resolución y su tecnología es OLED.</h3>
+                <a href="#">Leer más</a>
+            </div>
+            <div class="ofert-img">
+                <img src="Imagenes/honor-magic-5.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <main class="products container">
+        <h2>Productos</h2>
+        <div class="box-container" id="lista-1">
+
+            <div class="box">
+                <img src="Imagenes/apple watch series 9.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Apple watch Series 9</h3>
+                    <p>Descripcion :</p>
+                    <p>Pantalla Retina OLED LTPO siempre activa</p>
+                    <p>Pantalla de borde a borde</p>
+                    <p>Vidrio Ion-X en la parte frontal (cajas de aluminio)</p>
+                    <p>Hasta 2,000 nits de brillo máximo</p>
+                    <p class="precio">$500</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Imagenes/Huawei-P60-Pro-1.jpeg" alt="">
+                <div class="product-txt">
+                    <h3>Huawei P60 Pro</h3>
+                    <p>Descripcion :</p>
+                    <p>Pantalla. Tamaño. 6.67 pulgadas</p>
+                    <p>Procesador. Plataforma móvil Snapdragon 8+ Gen 1 4G</p>
+                    <p>Sistema operativo. EMUI 13.1</p>
+                    <p>BATERÍA. 4815 mAh (valor típico)</p>
+                    <p>Cámara frontal. Cámara selfie de 13 MP (gran angular, F2.4)</p>
+                    <p>Memoria. RAM + ROM</p>
+                    <p class="precio">$800</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/Iphone 15 pro max.png" alt="">
+                <div class="product-txt">
+                    <h3>Iphone 15 pro Max</h3>
+                    <p>Descripcion :</p>
+                    <p>Cámara de 12 MP</p>
+                    <p>Apertura de ƒ/1.9</p>
+                    <p>Autoenfoque con Focus Pixels</p>
+                    <p>Retina Flash</p>
+                    <p>HDR Inteligente 5</p>
+                    <p>Deep Fusion</p>
+                    <p class="precio">$1.350</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/iphone-14-pro.png" alt="">
+                <div class="product-txt">
+                    <h3>Iphone 14 pro Max</h3>
+                    <p>Descripcion :
+                    </p>
+                    <p>Pantalla Super Retina XDR</p>
+                    <p>Pantalla OLED de 6,7 pulgadas</p>
+                    <p>Resolución de 2.796 por 1.290 píxeles a 460 p/p</p>
+                    <p>Dynamic Island</p>
+                    <p>Tecnología ProMotion con frecuencia de actualización adaptativa de hasta 120 Hz</p>
+                    <p class="precio">$900</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/one plus 11 5g.jpg" alt="">
+                <div class="product-txt">
+                    <h3>One Plus 11 5G</h3>
+                    <p>Descripcion :
+                    </p>
+                    <p>Dimensiones. Alto: 163,1 mm. Ancho: 74,1 mm</p>
+                    <p>Sistema operativo: OxygenOS 13.0 basado en Android™ 13</p>
+                    <p>Sensores. Sensor de huellas dactilares en pantalla</p>
+                    <p class="precio">$950</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/oppo-find-n2-flip-2.jpg" alt="">
+                <div class="product-txt">
+                    <h3>OPPO Flip 2</h3>
+                    <p>Descripcion :
+                    </p>
+                    <p>DIMENSIONES Y PESO	166,2 x 75,2 x 7,45 mm (desplegado) 85.5 x 75,1 x 16,02 mm (plegado) 191 g</p>
+                    <p>PROCESADOR	Dimensity 9000+</p>
+                    <p>ALMACENAMIENTO	8 + 256 GB</p>
+                    <p class="precio">$1.050</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/poco-f2-pro-.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Xaomi F2 Pro</h3>
+                    <p>Descripcion :
+                    </p>
+                    <p>Compatible con redes 5G</p>
+                    <p>Pantalla Super AMOLED de 6.67</p>
+                    <p>Tiene 4 cámaras traseras de 64Mpx/13Mpx/5Mpx/2Mpx</p>
+                    <p class="precio">$450</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/Samsung A34.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Samsung A34</h3>
+                    <p>Descripcion :
+                    </p>
+                    <p>Tamaño Pantalla. 6,6</p>
+                    <p>Memoria Ram. 6 GB</p>
+                    <p>Camara. 48 MP + 8 MP + 5 MP</p>
+                    <p>Conectividad 5G</p>
+                    <p>Memoria interna 128 GB</p>
+                    <p class="precio">$180</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/samsung s23 ultra.png" alt="">
+                <div class="product-txt">
+                    <h3>Samsung S23 Ultra</h3>
+                    <p>Descripcion :
+                    </p>
+                    <p>Conectividad: 5G</p>
+                    <p>Pantalla: 6.8 Pulgadas FHD+ Dynamic AMOLED</p>
+                    <p>Procesador: Qualcomm SM8550 Snapdragon 8 Gen 2</p>
+                    <p>RAM: 12GB</p>
+                    <p>Almacenamiento: 512GB</p>
+                    <p class="precio">$1.100</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="10">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/Samsung-Galaxy-A54.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Samsung Galaxy A54</h3>
+                    <p>Descripcion :
+                    </p>
+                    <p>Conectividad. Wifi 802.11a/b/g/n/ac/ax (2.4 GHz y 5.0 GHz), UMTS, HSDPA, HSPA+,5G, LTE, NFC, Bluetooth 5.3
+
+                    </p>
+                    <p>Equipado con 5G</p>
+                    <p>Cámara triple asombrosa</p>
+                    <p>Ahorro de energía adaptativo</p>
+                    <p class="precio">$300</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="11">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/xaomi mi 11 ultra.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Xaomi Mi 11 Ultra</h3>
+                    <p>Descripcion :
+                    </p>
+                    <p>PROCESADOR Snapdragon 888</p>
+                    <p>RAM 8/12 GB LPDDR5</p>
+                    <p>ALMACENAMIENTO 128/256/512 GB UFS 3.1</p>
+                    <p>CÁMARA FRONTAL 20 MP, 78º, f/2.2</p>
+                    <p>ONECTIVIDAD WiFi 6E, Bluetooth 5.2, 5G, NFC</p>
+                    <p class="precio">$850</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="12">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/xaomi poco x3.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Xaomi Poco X3</h3>
+                    <p>Descripcion :
+                    </p>
+                    <p>Pantalla. 6.67" DotDisplay</p>
+                    <p>Batería y Carga. 5160mAh</p>
+                    <p>Cámara trasera. Cámara cuádruple IA de 64MP</p>
+                    <p>Cámara Frontal. Cámara para selfies con IA de 20MP</p>
+                    <p>NFC. Soporta Google Pay</p>
+                    <p class="precio">$250</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="13">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/xiaomi-13-pro.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Xaomi 13 Pro</h3>
+                    <p>Descripcion :
+                    </p>
+                    <p>Compatible con redes 5G</p>
+                    <p>Pantalla OLED de 6.73</p>
+                    <p>Tiene 3 cámaras traseras de 50Mpx/50Mpx/50Mpx</p>
+                    <p>Cámara delantera de 32Mpx</p>
+                    <p class="precio">$650</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="14">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="btn-2" id="load-more">Cargar Más</div>
+    </main>
+
+    <section class="testimonio container">
+        <span></span>
+        <h2>Opinion de la Clientela</h2>
+        <div class="testimonial-content">
+            <div class="testimonial-1">
+                <p>Quiero recomendar a Cell Shop por su increible atencion, y por tener todo lo necesaerio para satisfacer nuestras necesidades como clientes.</p>
+                    <img src="Imagenes/stars.png" alt="">
+                    <h4>Juan Carlos Lariza Veliz</h4>
+            </div>
+            <div class="testimonial-content">
+                <div class="testimonial-1">
+                    <p>Paso a recomendar a Cell Shop por tener productos buenos y baratos, para el alcance de todos los bolsillos</p>
+                        <img src="Imagenes/stars.png" alt="">
+                        <h4>Roxana Elisa Benavides Loor</h4>
+                </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Soporte</h3>
+                <ul>
+                    <li><a href="#">Telefonos</a></li>
+                    <li><a href="#">Asistencia</a></li>
+                    <li><a href="#">Portal de proveedores</a></li>
+                    <li><a href="#">cellshop.adm@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Privacidad</h3>
+                <ul>
+                    <li><a href="#">Portal de privacidad</a></li>
+                    <li><a href="#">Aviso de privacidad</a></li>
+                    <li><a href="#">Politicas de cookies</a></li>
+                    <li><a href="#">Atencion de derechos</a></li>
+                </ul>
+            </div> 
+            <div class="link">
+                <h3>Usuario</h3>
+                <ul>
+                    <li><a href="#">Iniciar Session </a></li>
+                    
+                </ul>
+            </div>
+            
+        </div>
+    </footer>
+
+
+        <script src="script.js"> </script>
+    
+</body>
+</html>
